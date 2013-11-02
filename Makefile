@@ -1,9 +1,9 @@
-CC=clang
-CFLAGS=-O0 -g -Wall -Wpointer-arith -ftrapv -fcatch-undefined-behavior
+#CC=clang
+#CFLAGS=-O0 -g -Wall -Wpointer-arith -ftrapv -fcatch-undefined-behavior
 
 # or, for gcc...
-#CC=gcc
-#CFLAGS=-O0 -g -Wall
+CC=gcc
+CFLAGS=-O0 -g -Wall
 
 LD=$(CC)
 LDFLAGS=-g
